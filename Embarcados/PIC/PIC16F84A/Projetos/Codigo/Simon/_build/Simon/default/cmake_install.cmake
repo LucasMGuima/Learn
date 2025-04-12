@@ -1,4 +1,4 @@
-# Install script for directory: /home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/Codigo/Simon/cmake/Simon/default
+# Install script for directory: /home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Codigo/Simon/cmake/Simon/default
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,7 +40,7 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/Codigo/Simon/_build/Simon/default/install_local_manifest.txt"
+  file(WRITE "/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Codigo/Simon/_build/Simon/default/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -56,6 +56,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/Codigo/Simon/_build/Simon/default/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Codigo/Simon/_build/Simon/default/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

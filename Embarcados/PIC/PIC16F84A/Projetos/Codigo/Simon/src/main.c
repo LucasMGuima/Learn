@@ -21,17 +21,23 @@ int main(){
     PORTA = 0b00000000;
     PORTB = 0b00000000;
   
-    sequencia[0] = 1;
-    sequencia[1] = 4;
-    sequencia[2] = 2;
-    sequencia[3] = 3;
-  
+    // Gera uma sequencia
+    nivel = 1;
+
     while(1){
-      LED_LOSE = 0;
+      gerar_sequencia(sequencia, nivel);
       // Mostra sequencia
-      mostrar_sequencia(sequencia);
-      
+      mostrar_sequencia(sequencia, nivel);
       // Entrada da sequencia
-      tratar_entrada(sequencia);
+      tratar_entrada(sequencia, nivel);
+
+      if(LED_LOSE == 1){
+        // Se o LED de perda estiver aceso, reinicia o jogo
+        nivel = 1;
+        LED_LOSE = 0;
+      }else{
+        // Proxima fase
+        nivel++;
+      }
     }
 };

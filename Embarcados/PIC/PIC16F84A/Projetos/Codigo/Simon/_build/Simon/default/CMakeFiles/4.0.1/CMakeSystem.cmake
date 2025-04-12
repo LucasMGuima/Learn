@@ -3,7 +3,7 @@ set(CMAKE_HOST_SYSTEM_NAME "Linux")
 set(CMAKE_HOST_SYSTEM_VERSION "6.9.3-76060903-generic")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
-include("/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/Codigo/Simon/cmake/Simon/default/.generated/toolchain.cmake")
+include("/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Codigo/Simon/cmake/Simon/default/.generated/toolchain.cmake")
 
 set(CMAKE_SYSTEM "Generic")
 set(CMAKE_SYSTEM_NAME "Generic")

@@ -21,8 +21,10 @@
     #define LED_LOSE PORTAbits.RA0
 
     // Pisca os LEDs de acordo com a sequencia
-    void mostrar_sequencia(unsigned char * sequencia);
+    void mostrar_sequencia(unsigned char * sequencia, unsigned char tamanho);
     // Verifica se a sequencia dos botões pressionados é igual a sequencia entrada
-    void tratar_entrada(unsigned char * sequencia);
+    void tratar_entrada(unsigned char * sequencia, unsigned char tamanho);
+    // Gera uma nova sequencia de tamanho x
+    void gerar_sequencia(unsigned char * sequencia, unsigned char tamanho);
 
 #endif
