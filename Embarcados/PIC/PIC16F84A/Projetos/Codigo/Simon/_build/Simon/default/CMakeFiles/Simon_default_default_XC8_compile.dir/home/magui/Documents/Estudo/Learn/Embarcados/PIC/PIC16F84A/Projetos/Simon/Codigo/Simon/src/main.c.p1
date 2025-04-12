@@ -1,0 +1,99 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[p mainexit ]
+"496 /home/magui/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8/pic/include/proc/pic16f84a.h
+[v _TRISB `Vuc ~T0 @X0 0 e@134 ]
+"452
+[v _TRISA `Vuc ~T0 @X0 0 e@133 ]
+"164
+[v _PORTA `Vuc ~T0 @X0 0 e@5 ]
+"208
+[v _PORTB `Vuc ~T0 @X0 0 e@6 ]
+"170
+[s S6 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S6 . RA0 RA1 RA2 RA3 RA4 ]
+"169
+[u S5 `S6 1 ]
+[n S5 . . ]
+"178
+[v _PORTAbits `VS5 ~T0 @X0 0 e@5 ]
+"24 /home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/Codigo/Simon/src/../include/simon.h
+[v _mostrar_sequencia `(v ~T0 @X0 0 ef1`*uc ]
+"26
+[v _tratar_entrada `(v ~T0 @X0 0 ef1`*uc ]
+"52 /home/magui/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8/pic/include/proc/pic16f84a.h
+[; <" INDF equ 00h ;# ">
+"59
+[; <" TMR0 equ 01h ;# ">
+"66
+[; <" PCL equ 02h ;# ">
+"73
+[; <" STATUS equ 03h ;# ">
+"159
+[; <" FSR equ 04h ;# ">
+"166
+[; <" PORTA equ 05h ;# ">
+"210
+[; <" PORTB equ 06h ;# ">
+"272
+[; <" EEDATA equ 08h ;# ">
+"279
+[; <" EEADR equ 09h ;# ">
+"286
+[; <" PCLATH equ 0Ah ;# ">
+"306
+[; <" INTCON equ 0Bh ;# ">
+"384
+[; <" OPTION_REG equ 081h ;# ">
+"454
+[; <" TRISA equ 085h ;# ">
+"498
+[; <" TRISB equ 086h ;# ">
+"560
+[; <" EECON1 equ 088h ;# ">
+"604
+[; <" EECON2 equ 089h ;# ">
+[v $root$_main `(v ~T0 @X0 0 e ]
+"11 /home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/Codigo/Simon/src/main.c
+[v _main `(i ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"12
+[v _nivel `uc ~T0 @X0 1 a ]
+"13
+[v _sequencia `uc ~T0 @X0 -> 4 `i a ]
+"14
+[v _cont `i ~T0 @X0 1 a ]
+"18
+[e = _TRISB -> -> 240 `i `uc ]
+"19
+[e = _TRISA -> -> 0 `i `uc ]
+"21
+[e = _PORTA -> -> 0 `i `uc ]
+"22
+[e = _PORTB -> -> 0 `i `uc ]
+"24
+[e = *U + &U _sequencia * -> -> -> 0 `i `ui `ux -> -> # *U &U _sequencia `ui `ux -> -> 1 `i `uc ]
+"25
+[e = *U + &U _sequencia * -> -> -> 1 `i `ui `ux -> -> # *U &U _sequencia `ui `ux -> -> 4 `i `uc ]
+"26
+[e = *U + &U _sequencia * -> -> -> 2 `i `ui `ux -> -> # *U &U _sequencia `ui `ux -> -> 2 `i `uc ]
+"27
+[e = *U + &U _sequencia * -> -> -> 3 `i `ui `ux -> -> # *U &U _sequencia `ui `ux -> -> 3 `i `uc ]
+"29
+[e :U 25 ]
+{
+"30
+[e = . . _PORTAbits 0 0 -> -> 0 `i `uc ]
+"32
+[e ( _mostrar_sequencia (1 &U _sequencia ]
+"35
+[e ( _tratar_entrada (1 &U _sequencia ]
+"36
+}
+[e :U 24 ]
+[e $U 25  ]
+[e :U 26 ]
+"37
+[e :UE 23 ]
+}

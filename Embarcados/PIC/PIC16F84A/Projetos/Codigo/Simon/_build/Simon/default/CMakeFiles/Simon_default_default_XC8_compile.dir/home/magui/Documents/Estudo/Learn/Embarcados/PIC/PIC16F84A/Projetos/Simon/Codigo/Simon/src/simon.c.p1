@@ -1,0 +1,263 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"214 /home/magui/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8/pic/include/proc/pic16f84a.h
+[s S12 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S12 . RB0 RB1 RB2 RB3 RB4 RB5 RB6 RB7 ]
+"213
+[u S11 `S12 1 ]
+[n S11 . . ]
+"225
+[v _PORTBbits `VS11 ~T0 @X0 0 e@6 ]
+[v F168 `(v ~T0 @X0 1 tf1`ul ]
+"20 /opt/microchip/xc8/v3.00/pic/include/builtins.h
+[v __delay `JF168 ~T0 @X0 0 e ]
+[p i __delay ]
+"170 /home/magui/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8/pic/include/proc/pic16f84a.h
+[s S10 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S10 . RA0 RA1 RA2 RA3 RA4 ]
+"169
+[u S9 `S10 1 ]
+[n S9 . . ]
+"178
+[v _PORTAbits `VS9 ~T0 @X0 0 e@5 ]
+"52 /home/magui/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8/pic/include/proc/pic16f84a.h
+[; <" INDF equ 00h ;# ">
+"59
+[; <" TMR0 equ 01h ;# ">
+"66
+[; <" PCL equ 02h ;# ">
+"73
+[; <" STATUS equ 03h ;# ">
+"159
+[; <" FSR equ 04h ;# ">
+"166
+[; <" PORTA equ 05h ;# ">
+"210
+[; <" PORTB equ 06h ;# ">
+"272
+[; <" EEDATA equ 08h ;# ">
+"279
+[; <" EEADR equ 09h ;# ">
+"286
+[; <" PCLATH equ 0Ah ;# ">
+"306
+[; <" INTCON equ 0Bh ;# ">
+"384
+[; <" OPTION_REG equ 081h ;# ">
+"454
+[; <" TRISA equ 085h ;# ">
+"498
+[; <" TRISB equ 086h ;# ">
+"560
+[; <" EECON1 equ 088h ;# ">
+"604
+[; <" EECON2 equ 089h ;# ">
+"6 /home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/Codigo/Simon/src/simon.c
+[v _mostrar_sequencia `(v ~T0 @X0 1 ef1`*uc ]
+{
+[e :U _mostrar_sequencia ]
+[v _sequencia `*uc ~T0 @X0 1 r1 ]
+[f ]
+"7
+[v _cont `uc ~T0 @X0 1 a ]
+"8
+{
+[e = _cont -> -> 0 `i `uc ]
+[e $ < -> _cont `i -> 4 `i 28  ]
+[e $U 29  ]
+[e :U 28 ]
+{
+"9
+[e $U 32  ]
+{
+"10
+[e :U 33 ]
+"11
+[e = . . _PORTBbits 0 0 -> -> 1 `i `uc ]
+"12
+[e $U 31  ]
+"13
+[e :U 34 ]
+"14
+[e = . . _PORTBbits 0 1 -> -> 1 `i `uc ]
+"15
+[e $U 31  ]
+"16
+[e :U 35 ]
+"17
+[e = . . _PORTBbits 0 2 -> -> 1 `i `uc ]
+"18
+[e $U 31  ]
+"19
+[e :U 36 ]
+"20
+[e = . . _PORTBbits 0 3 -> -> 1 `i `uc ]
+"21
+[e $U 31  ]
+"22
+}
+[e $U 31  ]
+[e :U 32 ]
+[e [\ *U + _sequencia * -> _cont `ux -> -> # *U _sequencia `ui `ux , $ -> 1 `i 33
+ , $ -> 2 `i 34
+ , $ -> 3 `i 35
+ , $ -> 4 `i 36
+ 31 ]
+[e :U 31 ]
+"23
+[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"24
+[e = . . _PORTBbits 0 0 -> -> 0 `i `uc ]
+"25
+[e = . . _PORTBbits 0 1 -> -> 0 `i `uc ]
+"26
+[e = . . _PORTBbits 0 2 -> -> 0 `i `uc ]
+"27
+[e = . . _PORTBbits 0 3 -> -> 0 `i `uc ]
+"28
+}
+[e ++ _cont -> -> 1 `i `uc ]
+[e $ < -> _cont `i -> 4 `i 28  ]
+[e :U 29 ]
+}
+"29
+[e :UE 27 ]
+}
+"31
+[v _tratar_entrada `(v ~T0 @X0 1 ef1`*uc ]
+{
+[e :U _tratar_entrada ]
+[v _sequencia `*uc ~T0 @X0 1 r1 ]
+[f ]
+"32
+[v _cont `uc ~T0 @X0 1 a ]
+[e = _cont -> -> 0 `i `uc ]
+"33
+[e = . . _PORTAbits 0 2 -> -> 0 `i `uc ]
+"34
+[e $U 38  ]
+[e :U 39 ]
+{
+"35
+[e $U 42  ]
+{
+"36
+[e :U 43 ]
+"37
+[e $ ! == -> . . _PORTBbits 0 7 `i -> 1 `i 44  ]
+{
+"38
+[e ++ . . _PORTAbits 0 2 -> -> 1 `i `Vuc ]
+"39
+[e ++ _cont -> -> 1 `i `uc ]
+"40
+}
+[e $U 45  ]
+[e :U 44 ]
+[e $ ! || || != -> . . _PORTBbits 0 6 `i -> 0 `i != -> . . _PORTBbits 0 5 `i -> 0 `i != -> . . _PORTBbits 0 4 `i -> 0 `i 46  ]
+{
+"41
+[e = . . _PORTAbits 0 0 -> -> 1 `i `uc ]
+"42
+[e = _cont -> -> 4 `i `uc ]
+"43
+}
+[e :U 46 ]
+[e :U 45 ]
+"44
+[e $U 41  ]
+"45
+[e :U 47 ]
+"46
+[e $ ! == -> . . _PORTBbits 0 6 `i -> 1 `i 48  ]
+{
+"47
+[e ++ . . _PORTAbits 0 2 -> -> 1 `i `Vuc ]
+"48
+[e ++ _cont -> -> 1 `i `uc ]
+"49
+}
+[e $U 49  ]
+[e :U 48 ]
+[e $ ! || || != -> . . _PORTBbits 0 7 `i -> 0 `i != -> . . _PORTBbits 0 5 `i -> 0 `i != -> . . _PORTBbits 0 4 `i -> 0 `i 50  ]
+{
+"50
+[e = . . _PORTAbits 0 0 -> -> 1 `i `uc ]
+"51
+[e = _cont -> -> 4 `i `uc ]
+"52
+}
+[e :U 50 ]
+[e :U 49 ]
+"53
+[e $U 41  ]
+"54
+[e :U 51 ]
+"55
+[e $ ! == -> . . _PORTBbits 0 5 `i -> 1 `i 52  ]
+{
+"56
+[e ++ . . _PORTAbits 0 2 -> -> 1 `i `Vuc ]
+"57
+[e ++ _cont -> -> 1 `i `uc ]
+"58
+}
+[e $U 53  ]
+[e :U 52 ]
+[e $ ! || || != -> . . _PORTBbits 0 6 `i -> 0 `i != -> . . _PORTBbits 0 7 `i -> 0 `i != -> . . _PORTBbits 0 4 `i -> 0 `i 54  ]
+{
+"59
+[e = . . _PORTAbits 0 0 -> -> 1 `i `uc ]
+"60
+[e = _cont -> -> 4 `i `uc ]
+"61
+}
+[e :U 54 ]
+[e :U 53 ]
+"62
+[e $U 41  ]
+"63
+[e :U 55 ]
+"64
+[e $ ! == -> . . _PORTBbits 0 4 `i -> 1 `i 56  ]
+{
+"65
+[e ++ . . _PORTAbits 0 2 -> -> 1 `i `Vuc ]
+"66
+[e ++ _cont -> -> 1 `i `uc ]
+"67
+}
+[e $U 57  ]
+[e :U 56 ]
+[e $ ! || || != -> . . _PORTBbits 0 6 `i -> 0 `i != -> . . _PORTBbits 0 5 `i -> 0 `i != -> . . _PORTBbits 0 7 `i -> 0 `i 58  ]
+{
+"68
+[e = . . _PORTAbits 0 0 -> -> 1 `i `uc ]
+"69
+[e = _cont -> -> 4 `i `uc ]
+"70
+}
+[e :U 58 ]
+[e :U 57 ]
+"71
+[e $U 41  ]
+"72
+}
+[e $U 41  ]
+[e :U 42 ]
+[e [\ *U + _sequencia * -> _cont `ux -> -> # *U _sequencia `ui `ux , $ -> 1 `i 43
+ , $ -> 2 `i 47
+ , $ -> 3 `i 51
+ , $ -> 4 `i 55
+ 41 ]
+[e :U 41 ]
+"73
+[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"74
+}
+[e :U 38 ]
+"34
+[e $ < -> _cont `i -> 4 `i 39  ]
+[e :U 40 ]
+"75
+[e :UE 37 ]
+}

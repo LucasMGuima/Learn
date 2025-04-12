@@ -3,7 +3,7 @@ void main() {
      // porta B como saida
      TRISB = 0b00000000;
      // Inicia todos os pinos da porta B
-     // em nível baixo
+     // em nï¿½vel baixo
      PORTB = 0b00000000;
      
      while(1){

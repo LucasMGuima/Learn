@@ -1,0 +1,6 @@
+{
+    "mplab.clangd.arguments": [
+        "--compile-commands-dir=${userHome}/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/Codigo/Simon/_build/Simon/default"
+    ],
+    "mplab.clangd.path": "/opt/microchip/xc8/v3.00/bin/xc8-clangd"
+}
