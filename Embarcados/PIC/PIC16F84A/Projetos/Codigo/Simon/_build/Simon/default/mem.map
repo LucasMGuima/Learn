@@ -3,10 +3,11 @@ Microchip MPLAB XC8 Compiler V3.00
 Linker command line:
 
 -W-3 \
-  --edf=/home/magui/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8/pic/dat/20250326211330_en.msgs \
+  --edf=C:/Users/Lucas/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\dat\20250326211330_en.msgs \
   -cn -h+Simon_default_default.sym --cmf=Simon_default_default.cmf -z \
-  -Q16F84A -o/tmp/xcXojHHFN/driver_tmp_3.o --defsym=__MPLAB_BUILD=1 \
-  --fixupoverflow=error -Mmem.map --md=/tmp/xcXojHHFN/driver_tmp_0.dat -E1 \
+  -Q16F84A -oC:\Users\Lucas\AppData\Local\Temp\xcAs7gs.\driver_tmp_3.o \
+  --defsym=__MPLAB_BUILD=1 --fixupoverflow=error -Mmem.map \
+  --md=C:\Users\Lucas\AppData\Local\Temp\xcAs7gs.\driver_tmp_0.dat -E1 \
   -ver=XC8 Compiler -ACODE=00h-03FFh -ASTRCODE=00h-03FFh \
   -ASTRING=00h-0FFhx4 -ACONST=00h-0FFhx4 -AENTRY=00h-0FFhx4 \
   -ABANK0=0Ch-04Dh -ARAM=0Ch-04Dh -AABS1=0Ch-04Fh -ACOMMON=04Eh-04Fh \
@@ -14,7 +15,8 @@ Linker command line:
   -AIDLOC=02000h-02003h -DIDLOC=2 -AEEDATA=00h-03Fh/02100h \
   -peeprom_data=EEDATA -DEEDATA=2 -DCODE=2 -DSTRCODE=2 -DSTRING=2 -DCONST=2 \
   -DENTRY=2 -preset_vec=00h,intentry,sivt,init,end_init -ppowerup=CODE \
-  -pcinit=CODE -pfunctab=ENTRY -k /tmp/xcXojHHFN/driver_tmp_10.o \
+  -pcinit=CODE -pfunctab=ENTRY -k \
+  C:\Users\Lucas\AppData\Local\Temp\xcAs7gs.\driver_tmp_10.o \
   Simon_default_default.o 
 
 Object code version is 3.11
@@ -24,17 +26,17 @@ Machine type is 16F84A
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-/tmp/xcXojHHFN/driver_tmp_10.o
+C:\Users\Lucas\AppData\Local\Temp\xcAs7gs.\driver_tmp_10.o
                 end_init                              0        0        1        0       0
 Simon_default_default.o
                 cinit                               3F9      3F9        7      7F2       0
-                text6                               202      202       13      404       0
-                text5                               296      296       47      52C       0
-                text4                               2DD      2DD       4B      5BA       0
-                text3                               215      215       20      42A       0
-                text2                               25C      25C       3A      4B8       0
-                text1                               328      328       D1      650       0
-                maintext                            235      235       27      46A       0
+                text6                               205      205       13      40A       0
+                text5                               25F      25F       47      4BE       0
+                text4                               2EE      2EE       4B      5DC       0
+                text3                               218      218       20      430       0
+                text2                               2A6      2A6       48      54C       0
+                text1                               339      339       C0      672       0
+                maintext                            238      238       27      470       0
                 cstackBANK0                           C        C       1D        C       1
                 bssBANK0                             29       29        4        C       1
 
@@ -42,13 +44,13 @@ TOTAL           Name                               Link     Load   Length     Sp
         CLASS   CODE           
                 end_init                              0        0        1         0
                 cinit                               3F9      3F9        7         0
-                text6                               202      202       13         0
-                text5                               296      296       47         0
-                text4                               2DD      2DD       4B         0
-                text3                               215      215       20         0
-                text2                               25C      25C       3A         0
-                text1                               328      328       D1         0
-                maintext                            235      235       27         0
+                text6                               205      205       13         0
+                text5                               25F      25F       47         0
+                text4                               2EE      2EE       4B         0
+                text3                               218      218       20         0
+                text2                               2A6      2A6       48         0
+                text1                               339      339       C0         0
+                maintext                            238      238       27         0
 
         CLASS   STRCODE        
 
@@ -89,33 +91,33 @@ TOTAL           Name                               Link     Load   Length     Sp
 
 SEGMENTS        Name                           Load    Length   Top    Selector   Space  Class     Delta
 
-                text2                          00025C  00003A  000296       4B8       0  CODE        2
-                text5                          000296  000047  0002DD       52C       0  CODE        2
                 reset_vec                      000000  000001  000001         0       0  CODE        2
-                maintext                       000235  000027  00025C       46A       0  CODE        2
-                text4                          0002DD  00004B  000328       5BA       0  CODE        2
-                text6                          000202  000013  000215       404       0  CODE        2
-                text3                          000215  000020  000235       42A       0  CODE        2
                 cstackBANK0                    00000C  000021  00002D         C       1  BANK0       1
+                text6                          000205  000013  000218       40A       0  CODE        2
+                text3                          000218  000020  000238       430       0  CODE        2
+                maintext                       000238  000027  00025F       470       0  CODE        2
+                text5                          00025F  000047  0002A6       4BE       0  CODE        2
+                text2                          0002A6  000048  0002EE       54C       0  CODE        2
+                text4                          0002EE  00004B  000339       5DC       0  CODE        2
+                text1                          000339  0000C0  0003F9       672       0  CODE        2
                 cinit                          0003F9  000007  000400       7F2       0  CODE        2
-                text1                          000328  0000D1  0003F9       650       0  CODE        2
 
 
 UNUSED ADDRESS RANGES
 
         Name                Unused          Largest block    Delta
         BANK0            02D-04D            21           1
-        CODE             001-201           201           2
+        CODE             001-204           204           2
         CONFIG           2007-2007             1           2
-        CONST            001-201           100           2
+        CONST            001-204           100           2
         EEDATA           2100-213F            40           2
-        ENTRY            001-201           100           2
+        ENTRY            001-204           100           2
         IDLOC            2000-2003             4           2
         RAM              02D-04D            21           1
         SFR0             000-00B             C           1
         SFR1             080-0CD            4E           1
-        STRCODE          001-201           201           2
-        STRING           001-201           100           2
+        STRCODE          001-204           204           2
+        STRING           001-204           100           2
 
                                   Symbol Table
 
@@ -198,7 +200,7 @@ ___int_sp                   stack        000
 ___int_stack_hi             stack        000
 ___int_stack_lo             stack        000
 ___latbits                  (abs)        000
-___lmul                     text5        296
+___lmul                     text5        25F
 ___lmul@multiplicand        cstackBANK0  010
 ___lmul@multiplier          cstackBANK0  00C
 ___lmul@product             cstackBANK0  015
@@ -207,32 +209,32 @@ ___stack_hi                 stack        000
 ___stack_lo                 stack        000
 ___stackhi                  (abs)        000
 ___stacklo                  (abs)        000
-__end_of___lmul             text5        2DD
+__end_of___lmul             text5        2A6
 __end_of__initialization    cinit        3FE
-__end_of_gerar_sequencia    text3        235
-__end_of_limpar_vetor       text6        215
-__end_of_main               maintext     25C
-__end_of_mostrar_sequencia  text2        296
-__end_of_rand               text4        328
+__end_of_gerar_sequencia    text3        238
+__end_of_limpar_vetor       text6        218
+__end_of_main               maintext     25F
+__end_of_mostrar_sequencia  text2        2EE
+__end_of_rand               text4        339
 __end_of_tratar_entrada     text1        3F9
 __initialization            cinit        3F9
 __pbssBANK0                 bssBANK0     029
 __pcstackBANK0              cstackBANK0  00C
 __pcstackCOMMON             cstackCOMMON 000
-__pmaintext                 maintext     235
-__ptext1                    text1        328
-__ptext2                    text2        25C
-__ptext3                    text3        215
-__ptext4                    text4        2DD
-__ptext5                    text5        296
-__ptext6                    text6        202
-_gerar_sequencia            text3        215
-_limpar_vetor               text6        202
-_main                       maintext     235
-_mostrar_sequencia          text2        25C
-_rand                       text4        2DD
+__pmaintext                 maintext     238
+__ptext1                    text1        339
+__ptext2                    text2        2A6
+__ptext3                    text3        218
+__ptext4                    text4        2EE
+__ptext5                    text5        25F
+__ptext6                    text6        205
+_gerar_sequencia            text3        218
+_limpar_vetor               text6        205
+_main                       maintext     238
+_mostrar_sequencia          text2        2A6
+_rand                       text4        2EE
 _seed                       bssBANK0     029
-_tratar_entrada             text1        328
+_tratar_entrada             text1        339
 btemp                       (abs)        04E
 end_of_initialization       cinit        3FE
 gerar_sequencia@cont        cstackBANK0  023
@@ -265,35 +267,35 @@ wtemp0                      (abs)        04E
 MODULE INFORMATION
 
 Module		Function		Class		Link	Load	Size
-/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Codigo/Simon/src/main.c
-		_main          		CODE           	0235	0000	39
+c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\Umul32.c
+		___lmul        		CODE           	025F	0000	71
 
-/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Codigo/Simon/src/main.c estimated size: 39
+c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\Umul32.c estimated size: 71
 
-/opt/microchip/xc8/v3.00/pic/sources/c99/common/rand.c
-		_rand          		CODE           	02DD	0000	75
+E:\Codigos\Learn\Embarcados\PIC\PIC16F84A\Projetos\Codigo\Simon\src\simon.c
+		_mostrar_sequencia		CODE           	02A6	0000	72
+		_tratar_entrada		CODE           	0339	0000	192
 
-/opt/microchip/xc8/v3.00/pic/sources/c99/common/rand.c estimated size: 75
+E:\Codigos\Learn\Embarcados\PIC\PIC16F84A\Projetos\Codigo\Simon\src\simon.c estimated size: 264
 
-/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Codigo/Simon/src/simon.c
-		_mostrar_sequencia		CODE           	025C	0000	58
-		_tratar_entrada		CODE           	0328	0000	209
+E:\Codigos\Learn\Embarcados\PIC\PIC16F84A\Projetos\Codigo\Simon\src\gerardor.c
+		_limpar_vetor  		CODE           	0205	0000	19
+		_gerar_sequencia		CODE           	0218	0000	32
 
-/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Codigo/Simon/src/simon.c estimated size: 267
+E:\Codigos\Learn\Embarcados\PIC\PIC16F84A\Projetos\Codigo\Simon\src\gerardor.c estimated size: 51
+
+c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\rand.c
+		_rand          		CODE           	02EE	0000	75
+
+c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\rand.c estimated size: 75
+
+E:\Codigos\Learn\Embarcados\PIC\PIC16F84A\Projetos\Codigo\Simon\src\main.c
+		_main          		CODE           	0238	0000	39
+
+E:\Codigos\Learn\Embarcados\PIC\PIC16F84A\Projetos\Codigo\Simon\src\main.c estimated size: 39
 
 shared
 		__initialization		CODE           	03F9	0000	5
 
 shared estimated size: 5
-
-/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Codigo/Simon/src/gerardor.c
-		_limpar_vetor  		CODE           	0202	0000	19
-		_gerar_sequencia		CODE           	0215	0000	32
-
-/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Codigo/Simon/src/gerardor.c estimated size: 51
-
-/opt/microchip/xc8/v3.00/pic/sources/c99/common/Umul32.c
-		___lmul        		CODE           	0296	0000	71
-
-/opt/microchip/xc8/v3.00/pic/sources/c99/common/Umul32.c estimated size: 71
 

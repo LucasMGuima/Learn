@@ -1,5 +1,5 @@
 Version 4.0 HI-TECH Software Intermediate Code
-"564 /home/magui/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8/pic/include/proc/pic16f84a.h
+"564 C:/Users/Lucas/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f84a.h
 [s S26 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S26 . RD WR WREN WRERR EEIF ]
 "563
@@ -40,7 +40,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _INTCONbits `VS15 ~T0 @X0 0 e@11 ]
 "602
 [v _EECON2 `Vuc ~T0 @X0 0 e@137 ]
-"52 /home/magui/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8/pic/include/proc/pic16f84a.h
+"52 C:/Users/Lucas/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f84a.h
 [; <" INDF equ 00h ;# ">
 "59
 [; <" TMR0 equ 01h ;# ">
@@ -72,7 +72,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; <" EECON1 equ 088h ;# ">
 "604
 [; <" EECON2 equ 089h ;# ">
-"6 /opt/microchip/xc8/v3.00/pic/sources/c99/pic/__eeprom.c
+"6 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\pic\__eeprom.c
 [v ___eecpymem `(v ~T0 @X0 1 ef3`*Vuc`*Euc`uc ]
 "7
 {

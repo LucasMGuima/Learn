@@ -5,13 +5,30 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "/opt/microchip/xc8/v3.00/pic/include",
-                "/home/magui/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8/pic/include/proc"
+                "/home/magui/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8/pic/include/proc",
+                "C:/Users/Lucas/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8/pic/include/proc"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
             "cStandard": "c17",
             "cppStandard": "gnu++17",
             "intelliSenseMode": "linux-gcc-x64"
+        },
+        {
+            "name": "Win",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "c:/PROGRA~1/MICROC~1/xc8/v3.00/pic/include/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.22621.0",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x86"
         }
     ],
     "version": 4

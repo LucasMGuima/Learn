@@ -1,6 +1,6 @@
 # The following functions contains all the flags passed to the different build stages.
 
-set(PACK_REPO_PATH "/home/magui/.mchp_packs" CACHE PATH "Path to the root of a pack repository.")
+set(PACK_REPO_PATH "C:/Users/Lucas/.mchp_packs" CACHE PATH "Path to the root of a pack repository.")
 
 function(Simon_default_default_XC8_assemble_rule target)
     set(options

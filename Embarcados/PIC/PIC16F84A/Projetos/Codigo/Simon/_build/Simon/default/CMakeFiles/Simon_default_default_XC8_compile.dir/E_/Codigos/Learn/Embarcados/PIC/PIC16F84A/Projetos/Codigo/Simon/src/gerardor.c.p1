@@ -1,0 +1,63 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"55 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\include\c99/stdlib.h
+[v _rand `(i ~T0 @X0 0 ef ]
+"4 E:\Codigos\Learn\Embarcados\PIC\PIC16F84A\Projetos\Codigo\Simon\src\gerardor.c
+[v _limpar_vetor `(v ~T0 @X0 1 ef2`*uc`uc ]
+{
+[e :U _limpar_vetor ]
+[v _sequencia `*uc ~T0 @X0 1 r1 ]
+[v _tamanho `uc ~T0 @X0 1 r2 ]
+[f ]
+"5
+[v _cont `uc ~T0 @X0 1 a ]
+"6
+{
+[e = _cont -> -> 0 `i `uc ]
+[e $U 9  ]
+[e :U 6 ]
+{
+"7
+[e = *U + _sequencia * -> _cont `ux -> -> # *U _sequencia `ui `ux -> -> 0 `i `uc ]
+"8
+}
+[e ++ _cont -> -> 1 `i `uc ]
+[e :U 9 ]
+[e $ < -> _cont `i -> _tamanho `i 6  ]
+[e :U 7 ]
+}
+"9
+[e :UE 5 ]
+}
+"11
+[v _gerar_sequencia `(v ~T0 @X0 1 ef2`*uc`uc ]
+{
+[e :U _gerar_sequencia ]
+[v _sequencia `*uc ~T0 @X0 1 r1 ]
+[v _tamanho `uc ~T0 @X0 1 r2 ]
+[f ]
+"12
+[v _num `uc ~T0 @X0 1 a ]
+"13
+[v _cont `uc ~T0 @X0 1 a ]
+"16
+[e ( _limpar_vetor (2 , _sequencia _tamanho ]
+"19
+{
+[e = _cont -> -> 0 `i `uc ]
+[e $U 14  ]
+[e :U 11 ]
+{
+"20
+[e = _num -> + % -> -> ( _rand ..  `uc `i -> 4 `i -> 1 `i `uc ]
+"21
+[e = *U + _sequencia * -> _cont `ux -> -> # *U _sequencia `ui `ux _num ]
+"22
+}
+[e ++ _cont -> -> 1 `i `uc ]
+[e :U 14 ]
+[e $ < -> _cont `i -> _tamanho `i 11  ]
+[e :U 12 ]
+}
+"23
+[e :UE 10 ]
+}

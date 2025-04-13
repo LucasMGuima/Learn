@@ -25,6 +25,7 @@ int main(){
     nivel = 1;
 
     while(1){
+      // Gera uma nova sequencia
       gerar_sequencia(sequencia, nivel);
       // Mostra sequencia
       mostrar_sequencia(sequencia, nivel);

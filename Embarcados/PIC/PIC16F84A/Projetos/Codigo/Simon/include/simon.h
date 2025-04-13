@@ -18,7 +18,8 @@
     #define LED4_INP PORTBbits.RB4
     
     // Pinagem do LED referente a perda
-    #define LED_LOSE PORTAbits.RA0
+    #define LED_LOSE PORTAbits.RA1
+    #define LED_DEBUG PORTAbits.RA0
 
     // Pisca os LEDs de acordo com a sequencia
     void mostrar_sequencia(unsigned char * sequencia, unsigned char tamanho);
