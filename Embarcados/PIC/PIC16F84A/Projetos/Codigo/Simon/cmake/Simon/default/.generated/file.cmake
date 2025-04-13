@@ -4,6 +4,7 @@ set_source_files_properties(${Simon_default_default_XC8_FILE_TYPE_assemble} PROP
 set(Simon_default_default_XC8_FILE_TYPE_assemblePreprocess)
 set_source_files_properties(${Simon_default_default_XC8_FILE_TYPE_assemblePreprocess} PROPERTIES LANGUAGE ASM)
 set(Simon_default_default_XC8_FILE_TYPE_compile
+    "${CMAKE_CURRENT_SOURCE_DIR}/../../../src/conversor.c"
     "${CMAKE_CURRENT_SOURCE_DIR}/../../../src/gerardor.c"
     "${CMAKE_CURRENT_SOURCE_DIR}/../../../src/main.c"
     "${CMAKE_CURRENT_SOURCE_DIR}/../../../src/simon.c")

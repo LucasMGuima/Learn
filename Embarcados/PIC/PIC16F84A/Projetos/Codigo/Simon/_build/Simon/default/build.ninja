@@ -44,6 +44,15 @@ cmake_ninja_workdir = E$:\Codigos\Learn\Embarcados\PIC\PIC16F84A\Projetos\Codigo
 
 build cmake_object_order_depends_target_Simon_default_default_XC8_compile: phony || .
 
+build CMakeFiles\Simon_default_default_XC8_compile.dir\E_\Codigos\Learn\Embarcados\PIC\PIC16F84A\Projetos\Codigo\Simon\src\conversor.c.p1: C_COMPILER__Simon_default_default_XC8_compile_unscanned_ E$:\Codigos\Learn\Embarcados\PIC\PIC16F84A\Projetos\Codigo\Simon\src\conversor.c || cmake_object_order_depends_target_Simon_default_default_XC8_compile
+  DEFINES = -DXPRJ_default=default -D__16F84A__
+  DEP_FILE = CMakeFiles\Simon_default_default_XC8_compile.dir\E_\Codigos\Learn\Embarcados\PIC\PIC16F84A\Projetos\Codigo\Simon\src\conversor.c.p1.d
+  FLAGS = -c -mcpu=16F84A -mdfp=C:/Users/Lucas/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -moscval=0x3400 -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto
+  OBJECT_DIR = CMakeFiles\Simon_default_default_XC8_compile.dir
+  OBJECT_FILE_DIR = CMakeFiles\Simon_default_default_XC8_compile.dir\E_\Codigos\Learn\Embarcados\PIC\PIC16F84A\Projetos\Codigo\Simon\src
+  TARGET_COMPILE_PDB = CMakeFiles\Simon_default_default_XC8_compile.dir\
+  TARGET_PDB = ""
+
 build CMakeFiles\Simon_default_default_XC8_compile.dir\E_\Codigos\Learn\Embarcados\PIC\PIC16F84A\Projetos\Codigo\Simon\src\gerardor.c.p1: C_COMPILER__Simon_default_default_XC8_compile_unscanned_ E$:\Codigos\Learn\Embarcados\PIC\PIC16F84A\Projetos\Codigo\Simon\src\gerardor.c || cmake_object_order_depends_target_Simon_default_default_XC8_compile
   DEFINES = -DXPRJ_default=default -D__16F84A__
   DEP_FILE = CMakeFiles\Simon_default_default_XC8_compile.dir\E_\Codigos\Learn\Embarcados\PIC\PIC16F84A\Projetos\Codigo\Simon\src\gerardor.c.p1.d
@@ -76,7 +85,7 @@ build CMakeFiles\Simon_default_default_XC8_compile.dir\E_\Codigos\Learn\Embarcad
 #############################################
 # Object library Simon_default_default_XC8_compile
 
-build Simon_default_default_XC8_compile: phony CMakeFiles\Simon_default_default_XC8_compile.dir\E_\Codigos\Learn\Embarcados\PIC\PIC16F84A\Projetos\Codigo\Simon\src\gerardor.c.p1 CMakeFiles\Simon_default_default_XC8_compile.dir\E_\Codigos\Learn\Embarcados\PIC\PIC16F84A\Projetos\Codigo\Simon\src\main.c.p1 CMakeFiles\Simon_default_default_XC8_compile.dir\E_\Codigos\Learn\Embarcados\PIC\PIC16F84A\Projetos\Codigo\Simon\src\simon.c.p1
+build Simon_default_default_XC8_compile: phony CMakeFiles\Simon_default_default_XC8_compile.dir\E_\Codigos\Learn\Embarcados\PIC\PIC16F84A\Projetos\Codigo\Simon\src\conversor.c.p1 CMakeFiles\Simon_default_default_XC8_compile.dir\E_\Codigos\Learn\Embarcados\PIC\PIC16F84A\Projetos\Codigo\Simon\src\gerardor.c.p1 CMakeFiles\Simon_default_default_XC8_compile.dir\E_\Codigos\Learn\Embarcados\PIC\PIC16F84A\Projetos\Codigo\Simon\src\main.c.p1 CMakeFiles\Simon_default_default_XC8_compile.dir\E_\Codigos\Learn\Embarcados\PIC\PIC16F84A\Projetos\Codigo\Simon\src\simon.c.p1
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Simon_default_default.elf
@@ -95,7 +104,7 @@ build cmake_object_order_depends_target_Simon_default_default.elf: phony || cmak
 #############################################
 # Link the executable Simon_default_default.elf
 
-build Simon_default_default.elf E$:\Codigos\Learn\Embarcados\PIC\PIC16F84A\Projetos\Codigo\Simon\out\Simon\default.elf: C_EXECUTABLE_LINKER__Simon_default_default.2eelf_ CMakeFiles\Simon_default_default_XC8_compile.dir\E_\Codigos\Learn\Embarcados\PIC\PIC16F84A\Projetos\Codigo\Simon\src\gerardor.c.p1 CMakeFiles\Simon_default_default_XC8_compile.dir\E_\Codigos\Learn\Embarcados\PIC\PIC16F84A\Projetos\Codigo\Simon\src\main.c.p1 CMakeFiles\Simon_default_default_XC8_compile.dir\E_\Codigos\Learn\Embarcados\PIC\PIC16F84A\Projetos\Codigo\Simon\src\simon.c.p1 || Simon_default_default_XC8_compile
+build Simon_default_default.elf E$:\Codigos\Learn\Embarcados\PIC\PIC16F84A\Projetos\Codigo\Simon\out\Simon\default.elf: C_EXECUTABLE_LINKER__Simon_default_default.2eelf_ CMakeFiles\Simon_default_default_XC8_compile.dir\E_\Codigos\Learn\Embarcados\PIC\PIC16F84A\Projetos\Codigo\Simon\src\conversor.c.p1 CMakeFiles\Simon_default_default_XC8_compile.dir\E_\Codigos\Learn\Embarcados\PIC\PIC16F84A\Projetos\Codigo\Simon\src\gerardor.c.p1 CMakeFiles\Simon_default_default_XC8_compile.dir\E_\Codigos\Learn\Embarcados\PIC\PIC16F84A\Projetos\Codigo\Simon\src\main.c.p1 CMakeFiles\Simon_default_default_XC8_compile.dir\E_\Codigos\Learn\Embarcados\PIC\PIC16F84A\Projetos\Codigo\Simon\src\simon.c.p1 || Simon_default_default_XC8_compile
   LINK_FLAGS = -Wl,-Map=mem.map -mcpu=16F84A -Wl,--defsym=__MPLAB_BUILD=1 -mdfp=C:/Users/Lucas/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -moscval=0x3400 -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto -Wl,--memorysummary,memoryfile.xml
   OBJECT_DIR = CMakeFiles\Simon_default_default.elf.dir
   POST_BUILD = cmd.exe /C "cd /D E:\Codigos\Learn\Embarcados\PIC\PIC16F84A\Projetos\Codigo\Simon\_build\Simon\default && E:\Programas\cmake\bin\cmake.exe -E make_directory E:/Codigos/Learn/Embarcados/PIC/PIC16F84A/Projetos/Codigo/Simon/cmake/Simon/default/../../../out/Simon && E:\Programas\cmake\bin\cmake.exe -E copy Simon_default_default.elf E:/Codigos/Learn/Embarcados/PIC/PIC16F84A/Projetos/Codigo/Simon/cmake/Simon/default/../../../out/Simon/default.elf"

@@ -1,6 +1,11 @@
 #ifndef _SIMON_H
 #define _SIMON_H
 
+    #include <builtins.h>
+    #include <pic.h>
+    #include <pic16f84a.h>
+    #include <xc.h>
+
     // Frequencia do cristal
     #define _XTAL_FREQ 4000000 // 4MHz
 
@@ -18,8 +23,12 @@
     #define LED4_INP PORTBbits.RB4
     
     // Pinagem do LED referente a perda
-    #define LED_LOSE PORTAbits.RA1
-    #define LED_DEBUG PORTAbits.RA0
+    #define LED_LOSE PORTAbits.RA0
+
+    // Pinagem 74HC595
+    #define DATA PORTAbits.RA2
+    #define CLK PORTAbits.RA1
+    #define LATCH PORTAbits.RA3
 
     // Pisca os LEDs de acordo com a sequencia
     void mostrar_sequencia(unsigned char * sequencia, unsigned char tamanho);
@@ -27,5 +36,9 @@
     void tratar_entrada(unsigned char * sequencia, unsigned char tamanho);
     // Gera uma nova sequencia de tamanho x
     void gerar_sequencia(unsigned char * sequencia, unsigned char tamanho);
+    // Passa a sequencia de serial para paralelo
+    void to_paralel(char bits);
+    // Converte o nivel para uma sequencia de bits
+    char to_bits(unsigned char nivel);
 
 #endif
