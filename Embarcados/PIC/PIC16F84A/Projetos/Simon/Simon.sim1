@@ -6,7 +6,7 @@
 
 <item itemtype="Push" CircId="Push-23" mainComp="false" Show_id="false" Show_Val="false" Pos="140,-44" rotation="0" hflip="1" vflip="1" label="Push-23" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
 
-<item itemtype="Rail" CircId="Rail-27" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="164,-68" rotation="90" hflip="1" vflip="1" label="Rail-27" idLabPos="-5,-10" labelrot="-90" valLabPos="-12,6" valLabRot="-90" Voltage="5 V" />
+<item itemtype="Rail" CircId="Rail-27" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="168,-68" rotation="90" hflip="1" vflip="1" label="Rail-27" idLabPos="-5,-10" labelrot="-90" valLabPos="-12,6" valLabRot="-90" Voltage="5 V" />
 
 <item itemtype="Resistor" CircId="Resistor-53" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="92,-44" rotation="180" hflip="1" vflip="1" label="Resistor-53" idLabPos="-16,-24" labelrot="0" valLabPos="8.6114,7.95269" valLabRot="180" Resistance="1 kΩ" />
 
@@ -34,7 +34,7 @@
 
 <item itemtype="Ground" CircId="Ground-230" mainComp="false" Show_id="false" Show_Val="false" Pos="52,40" rotation="90" hflip="1" vflip="1" label="Ground-230" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
 
-<item itemtype="Rail" CircId="Rail-231" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="164,16" rotation="90" hflip="1" vflip="1" label="Rail-231" idLabPos="-5,-10" labelrot="-90" valLabPos="-12,6" valLabRot="-90" Voltage="5 V" />
+<item itemtype="Rail" CircId="Rail-231" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="168,16" rotation="90" hflip="1" vflip="1" label="Rail-231" idLabPos="-5,-10" labelrot="-90" valLabPos="-12,6" valLabRot="-90" Voltage="5 V" />
 
 <item itemtype="Resistor" CircId="Resistor-234" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="92,40" rotation="180" hflip="1" vflip="1" label="Resistor-234" idLabPos="-16,-24" labelrot="0" valLabPos="8.24135,8.35334" valLabRot="180" Resistance="1 kΩ" />
 
@@ -126,7 +126,7 @@
 
 <item itemtype="Connector" uid="Connector-577" startpinid="Resistor-224-lPin" endpinid="Led-220-lPin" pointList="124,-12,112,-12" />
 
-<item itemtype="Connector" uid="Connector-581" startpinid="Rail-27-outnod" endpinid="Push-23-switch0pinN" pointList="164,-52,164,-44,156,-44" />
+<item itemtype="Connector" uid="Connector-581" startpinid="Rail-27-outnod" endpinid="Push-23-switch0pinN" pointList="168,-52,168,-44,156,-44" />
 
 <item itemtype="Connector" uid="Connector-588" startpinid="Led-220-rPin" endpinid="Node-228-1" pointList="80,-12,72,-12,72,-44" />
 
@@ -136,7 +136,7 @@
 
 <item itemtype="Connector" uid="Connector-594" startpinid="Led-235-rPin" endpinid="Node-233-1" pointList="80,72,72,72,72,40" />
 
-<item itemtype="Connector" uid="Connector-595" startpinid="Rail-231-outnod" endpinid="Push-229-switch0pinN" pointList="164,32,164,40,156,40" />
+<item itemtype="Connector" uid="Connector-595" startpinid="Rail-231-outnod" endpinid="Push-229-switch0pinN" pointList="168,32,168,40,156,40" />
 
 <item itemtype="Connector" uid="Connector-596" startpinid="Node-232-2" endpinid="Resistor-234-lPin" pointList="116,40,108,40" />
 
