@@ -10,7 +10,7 @@ O circuito foi emulado e desenvolvido no [SimulIDE](https://simulide.com/p/), on
 
 ### Desmonstração
 
-<iframe width="361" height="203" src="https://www.youtube.com/embed/OvKHHk_A2M8?list=PLTOI4K82_K0vknaSxF7C5uA2y_vROb6yU" title="Demonstração Simon - PIC16F84" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Video no YouTube](https://www.youtube.com/shorts/OvKHHk_A2M8)
 
 Para simular o circuito, é necessario carregar o arquivo *Simon.sim1*, econtrado na pasta */circuito* no *SimulIDE* e carregar o arquivo *Simon_default_default.hex* encontrado no caminho */_build/Simon/default*  como *firmware* no PIC16F48.
 
