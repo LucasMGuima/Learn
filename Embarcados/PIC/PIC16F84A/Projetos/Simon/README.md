@@ -27,7 +27,9 @@ Para simular o circuito, é necessario carregar o arquivo *Simon.sim1*, econtrad
 - **Display de 7 segmentos**
 
     Para indicar os valores no display de 7 segmentos foi utilizado um conversor de serial para paralelo, neste caso o 74HC545 foi ecolido.  
+
     <img src="./imgs/74hc545.jpeg" alt="74hc545" width="250"/>
+    
     A sequencia de LEDs do diplay a ser acesa é passada para o 74HC545 de modo serial e o mesmo converte os dados para paralelo.
     Em código a sequencia é representada por um Byte onde o digito menos seguinificativo é ignorado, logo a relação de bit para led é:
     ```
