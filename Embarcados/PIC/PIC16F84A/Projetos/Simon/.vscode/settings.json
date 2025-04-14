@@ -1,8 +1,8 @@
 {
     "mplab.clangd.arguments": [
-        "--compile-commands-dir=${workspaceRoot}\\_build\\Simon\\default"
+        "--compile-commands-dir=${userHome}/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/_build/Simon/default"
     ],
-    "mplab.clangd.path": "c:\\Program Files\\Microchip\\xc8\\v3.00\\bin\\xc8-clangd.exe",
+    "mplab.clangd.path": "/opt/microchip/xc8/v3.00/bin/xc8-clangd",
     "files.associations": {
         "*.go": "go",
         "pic16f84a.h": "c",

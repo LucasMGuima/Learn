@@ -4,21 +4,21 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:200 (message)"
       - "CMakeLists.txt:17 (project)"
     message: |
       The target system is: Generic -  - 
-      The host system is: Windows - 10.0.19045 - 
+      The host system is: Linux - 6.9.3-76060903-generic - x86_64
   -
     kind: "message-v1"
     backtrace:
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: c:/Program Files/Microchip/xc8/v3.00/bin/xc8-cc.exe 
+      Compiler: /opt/microchip/xc8/v3.00/bin/xc8-cc 
       Build flags: 
       Id flags:  
       
@@ -30,13 +30,13 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: c:/Program Files/Microchip/xc8/v3.00/bin/xc8-cc.exe 
+      Compiler: /opt/microchip/xc8/v3.00/bin/xc8-cc 
       Build flags: 
       Id flags: -c 
       
@@ -48,13 +48,13 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: c:/Program Files/Microchip/xc8/v3.00/bin/xc8-cc.exe 
+      Compiler: /opt/microchip/xc8/v3.00/bin/xc8-cc 
       Build flags: 
       Id flags: -Aa 
       
@@ -66,13 +66,13 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: c:/Program Files/Microchip/xc8/v3.00/bin/xc8-cc.exe 
+      Compiler: /opt/microchip/xc8/v3.00/bin/xc8-cc 
       Build flags: 
       Id flags: -D__CLASSIC_C__ 
       
@@ -84,13 +84,13 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: c:/Program Files/Microchip/xc8/v3.00/bin/xc8-cc.exe 
+      Compiler: /opt/microchip/xc8/v3.00/bin/xc8-cc 
       Build flags: 
       Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
       
@@ -102,13 +102,13 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: c:/Program Files/Microchip/xc8/v3.00/bin/xc8-cc.exe 
+      Compiler: /opt/microchip/xc8/v3.00/bin/xc8-cc 
       Build flags: 
       Id flags: -c;-I__does_not_exist__ 
       
@@ -120,13 +120,13 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: c:/Program Files/Microchip/xc8/v3.00/bin/xc8-cc.exe 
+      Compiler: /opt/microchip/xc8/v3.00/bin/xc8-cc 
       Build flags: 
       Id flags:  
       
@@ -138,13 +138,13 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: c:/Program Files/Microchip/xc8/v3.00/bin/xc8-cc.exe 
+      Compiler: /opt/microchip/xc8/v3.00/bin/xc8-cc 
       Build flags: 
       Id flags: -c 
       
@@ -156,13 +156,13 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: c:/Program Files/Microchip/xc8/v3.00/bin/xc8-cc.exe 
+      Compiler: /opt/microchip/xc8/v3.00/bin/xc8-cc 
       Build flags: 
       Id flags: -Aa 
       
@@ -174,13 +174,13 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: c:/Program Files/Microchip/xc8/v3.00/bin/xc8-cc.exe 
+      Compiler: /opt/microchip/xc8/v3.00/bin/xc8-cc 
       Build flags: 
       Id flags: -D__CLASSIC_C__ 
       
@@ -192,13 +192,13 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: c:/Program Files/Microchip/xc8/v3.00/bin/xc8-cc.exe 
+      Compiler: /opt/microchip/xc8/v3.00/bin/xc8-cc 
       Build flags: 
       Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
       
@@ -210,13 +210,13 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: c:/Program Files/Microchip/xc8/v3.00/bin/xc8-cc.exe 
+      Compiler: /opt/microchip/xc8/v3.00/bin/xc8-cc 
       Build flags: 
       Id flags: -c;-I__does_not_exist__ 
       
@@ -228,9 +228,9 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
@@ -238,9 +238,9 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
@@ -248,8 +248,8 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
@@ -260,8 +260,8 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Checking whether the ASM compiler is AppleClang using "--version" did not match "(Apple (clang|LLVM) version)":
@@ -272,8 +272,8 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Checking whether the ASM compiler is Clang using "--version" did not match "(clang version)":
@@ -284,8 +284,8 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Checking whether the ASM compiler is ARMClang using "--version" did not match "armclang":
@@ -296,8 +296,8 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Checking whether the ASM compiler is OrangeC using "--version" did not match "occ \\(OrangeC\\) Version":
@@ -308,8 +308,8 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Checking whether the ASM compiler is HP using "-V" did not match "HP C":
@@ -317,8 +317,8 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Checking whether the ASM compiler is Intel using "--version" did not match "(ICC)":
@@ -329,8 +329,8 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Checking whether the ASM compiler is IntelLLVM using "--version" did not match "(Intel[^
@@ -342,8 +342,8 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Checking whether the ASM compiler is SunPro using "-V" did not match "Sun C":
@@ -351,8 +351,8 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Checking whether the ASM compiler is XL using "-qversion" did not match "XL C":
@@ -360,8 +360,8 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Checking whether the ASM compiler is MSVC using "-?" did not match "Microsoft":
@@ -369,8 +369,8 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Checking whether the ASM compiler is TI using "-h" did not match "Texas Instruments":
@@ -378,8 +378,8 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Checking whether the ASM compiler is TIClang using "--version" did not match "(TI (.*) Clang Compiler)":
@@ -390,8 +390,8 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Checking whether the ASM compiler is IAR using "" did not match "IAR Assembler":
@@ -399,8 +399,8 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Checking whether the ASM compiler is ARMCC using "" did not match "(ARM Compiler)|(ARM Assembler)|(Arm Compiler)":
@@ -408,8 +408,8 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Checking whether the ASM compiler is NASM using "-v" did not match "(NASM version)":
@@ -417,8 +417,8 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Checking whether the ASM compiler is YASM using "--version" did not match "(yasm)":
@@ -429,8 +429,8 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Checking whether the ASM compiler is ADSP using "-version" did not match "Analog Devices":
@@ -438,10 +438,22 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
-      - "E:/Programas/cmake/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Checking whether the ASM compiler is QCC using "-V" did not match "gcc_nto":
       (2042) no target device specified; use the -mcpu option to specify a target device
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "/home/magui/.mplab/app-finder/apps/cmake/v4.0.1/cmake-4.0.1-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Checking whether the ASM compiler is Tasking using "--version" did not match "TASKING":
+      Microchip MPLAB XC8 C Compiler V3.00
+      Build date: Dec  4 2024
+      Part Support Version: 3.00
+      Copyright (C) 2024 Microchip Technology Inc.
 ...

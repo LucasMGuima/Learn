@@ -6,7 +6,6 @@
 *.cp
 *.dbg
 *.dct
-*.hex
 *.dlt
 *.log
 *.lst

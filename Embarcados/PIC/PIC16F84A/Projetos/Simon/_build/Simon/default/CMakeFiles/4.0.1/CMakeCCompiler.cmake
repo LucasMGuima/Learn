@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "c:/Program Files/Microchip/xc8/v3.00/bin/xc8-cc.exe")
+set(CMAKE_C_COMPILER "/opt/microchip/xc8/v3.00/bin/xc8-cc")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "")
 set(CMAKE_C_COMPILER_VERSION "")
@@ -22,11 +22,11 @@ set(CMAKE_C_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "c:/Program Files/Microchip/xc8/v3.00/bin/xc8-ar.exe")
+set(CMAKE_AR "/opt/microchip/xc8/v3.00/bin/xc8-ar")
 set(CMAKE_C_COMPILER_AR "")
 set(CMAKE_RANLIB ":")
 set(CMAKE_C_COMPILER_RANLIB "")
-set(CMAKE_LINKER "E:/msys2/ucrt64/bin/ld.exe")
+set(CMAKE_LINKER "/usr/bin/ld")
 set(CMAKE_LINKER_LINK "")
 set(CMAKE_LINKER_LLD "")
 set(CMAKE_C_COMPILER_LINKER "")
@@ -47,6 +47,8 @@ set(CMAKE_C_SOURCE_FILE_EXTENSIONS c;m)
 set(CMAKE_C_IGNORE_EXTENSIONS h;H;o;O;obj;OBJ;def;DEF;rc;RC)
 set(CMAKE_C_LINKER_PREFERENCE 10)
 set(CMAKE_C_LINKER_DEPFILE_SUPPORTED )
+set(CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED )
+set(CMAKE_C_LINKER_PUSHPOP_STATE_SUPPORTED )
 
 # Save compiler ABI information.
 set(CMAKE_C_SIZEOF_DATA_PTR "")
