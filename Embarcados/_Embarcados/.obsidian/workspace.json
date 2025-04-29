@@ -1,0 +1,174 @@
+{
+  "main": {
+    "id": "8babfcbd01bc30c7",
+    "type": "split",
+    "children": [
+      {
+        "id": "42ff8c961f7de39b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "13fd56ad623639a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Criando Sistemas Embarcados/_Notas.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_Notas"
+            }
+          },
+          {
+            "id": "371687205a2041da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Criando Sistemas Embarcados/_Notas.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_Notas"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7544c0953371cc7d",
+    "type": "split",
+    "children": [
+      {
+        "id": "8054f783d7655452",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8ebd7cf0b23b948e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "5fb9d3b3acc78739",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "42ae538de76fa89c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 234.5
+  },
+  "right": {
+    "id": "dabbfd26e807e71b",
+    "type": "split",
+    "children": [
+      {
+        "id": "72055b7294b3af24",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b292d2034cfde711",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Criando Sistemas Embarcados/_Notas.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para _Notas"
+            }
+          },
+          {
+            "id": "853671ea38f14b94",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "3cc1f763f82d0a1d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Criando Sistemas Embarcados/_Notas.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de _Notas"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "371687205a2041da",
+  "lastOpenFiles": [
+    "Criando Sistemas Embarcados/Capitulo 2 - Criando uma arquitetura de sistema.md",
+    "Criando Sistemas Embarcados/_Notas.md",
+    "Criando Sistemas Embarcados/Capitulo 1 - Introdução.md",
+    "Criando Sistemas Embarcados"
+  ]
+}

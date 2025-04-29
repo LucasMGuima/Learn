@@ -1,0 +1,3 @@
+## Depuração
+A depuração para Sistemas Embarcados ocorre utilizando de *depuradores cruzados*, que consistem em depurados que fica em seu computador e se comunicam com o processador de destino por meio de uma interface de processador especial.
+A **interface que permite o depuração cruzada** costumam receber o nome de JTAG ("jay-tag"), mesmo que não implemente este padrão. Ela permite que outra pessoa intercepte o processador enquanto ele funciona.

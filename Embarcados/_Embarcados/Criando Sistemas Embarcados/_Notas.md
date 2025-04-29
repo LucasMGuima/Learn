@@ -1,0 +1,7 @@
+-  Repositório: [GitHub](https://github.com/eleciawhite/making-embedded-systems)
+- Citação: "Criando sistemas embarcados, de Elecia White(O'Reilly). Copyright 2024 Elecia White, 978-1-098-15154-6"
+- Leitura adicional sobre padrão de projeto:
+	- Design Patterns: Elements of Reusable Object-Oriented Software, de Ericg Gamma et al. (Addison-Wesley);
+	- Head First Design Patterns,de Eric T, Freemab et al. (O'Reilly). Mais legível que o livro anterior, possui exemplos concretos.
+-  Leitura adicional sobre do protótipo ao produto:
+	- Protype to Product: A Pratical Guide for Getting to Market, de Alan Cohen (O'Reilly)
