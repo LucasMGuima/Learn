@@ -115,18 +115,12 @@ R:
 17) Rewrite the fact function so that it’s no longer recursive.
 R:
 ```C
-    
-```
+    int fact(int n){
+        int result = 0;
+        for(int i = n-1; n >= 1; i--){
+            result *= i;
+        }
 
-19) Consider the following “mystery” function:
-```C
-void pb(int n){
-    if (n != 0) {
-        pb(n / 2);
-        putchar('0' + n % 2);
+        return result;
     }
-}
 ```
-Trace the execution of the function by hand. Then write a program that calls the function, passing it a number entered by the user. What does the function do?
-
-> R: 
